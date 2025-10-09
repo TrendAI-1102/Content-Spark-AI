@@ -19,6 +19,6 @@ export default defineConfig(({ mode }) => {
           '@': path.resolve(__dirname, '.'),
         }
       },
-      base: '/Content-Spark-AI/', // <-- THÊM DÒNG NÀY VÀO ĐÂY
+      base: '/Content-Spark-AI/',
     };
 });

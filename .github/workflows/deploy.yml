@@ -36,7 +36,7 @@ jobs:
 
       - name: Build project
         # Chạy lệnh build, sử dụng base path là tên repository của bạn
-        run: npm run build -- --base=/Content-Spark-AI/
+        run: npm run build
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
